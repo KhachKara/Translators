@@ -1,7 +1,8 @@
-from yandex_translator import get_translation
+from yandex_translator import get_translation   # загружаем яндекс translate api
 
 
 def main(text, lang):
+    """ Функция приниает текстовый блок как аргумент text и в зависимости от lang делает перевод """
     with open('output.txt', 'w', encoding='utf-8') as f:
         print(*get_translation(text, lang)['text'], file=f)
 
