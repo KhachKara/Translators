@@ -1,0 +1,4 @@
+In this mission, we learned how to work with variables, use functions,
+perform math using arithmetic operators, and work with list objects.
+In the next mission, we'll learn how to interface with files and use loops to easily repeat certain tasks.
+Click the Finish the mission button below to continue to this mission.
